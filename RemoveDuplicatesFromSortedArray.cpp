@@ -1,3 +1,6 @@
+/*
+ Thay vì cứ gặp trùng là lại xếp lại mảng, thì mình dùng 2 lính canh, mỗi lầtrôi qua thì chỉ coi cai nào khác thì add vô thôi. 
+ */
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
